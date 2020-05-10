@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Aluguéis por Temporada, Acomodações, Experiências e Lugares - Airdnd
+    </title>
+    <link
+      rel="shortcut icon"
+      href="../src/assets/images/airbnb-logo.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../src/assets/css/base.css" />
+    <link rel="stylesheet" href="../src/assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+      crossorigin=""
+    ></script>
+    <script async type="module" src="../index.js"></script>
+    <script async type="module" src="../src/map.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <header class="header">
+        <nav class="navbar">
+          <span role="logo">
+            <img
+              src="../src/assets/images/airbnb-logo.svg"
+              alt="Logotipo airbnb"
+            />
+            airdnd
+          </span>
+
+          <a href="#!" class="button">
+            <img src="../src/assets/images/github-logo.svg" alt="Github icon" />
+            Github
+          </a>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="response-result">
+          <small></small>
+          <h1>Estadias em São Paulo</h1>
+        </div>
+        <section class="card-container"></section>
+      </main>
+
+      <section class="map-container">
+        <div id="map" class="map"></div>
+      </section>
+    </div>
+  </body>
+</html>
