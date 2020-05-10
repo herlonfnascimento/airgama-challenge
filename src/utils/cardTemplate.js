@@ -25,7 +25,7 @@ export default function createCard(item) {
         <span class="price">R$ ${item.price},00/mês</span>
       </div>
     </div>
-</article>
+  </article>
   `;
 
   cardContainer.innerHTML += cardTemplate;
