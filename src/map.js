@@ -1,7 +1,6 @@
 'use strict';
 
 import components from './nodeElements.js';
-const { mapContainer, showMapButton } = components;
 
 export default async function renderMap() {
   // Criando instância do mapa
